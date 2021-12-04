@@ -1,8 +1,10 @@
-﻿using System;
+﻿using AdventOfCode.Properties;
+using System;
+
 
 namespace AdventOfCode
 {
-    class DayX : Day
+    class Day5 : Day
     {
         public override void Run()
         {

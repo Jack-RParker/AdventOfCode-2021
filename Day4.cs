@@ -36,7 +36,7 @@ namespace AdventOfCode
         {
             string[] raw = Resources.Day4Input.Split('\n');
 
-            int n = (raw.Length-2)/6;
+            int n = (raw.Length - 2) / 6;
             List<BingoBoard> boards = new List<BingoBoard>();
             for (int i = 2; i < 2 + (6 * n); i += 6)
             {
@@ -46,7 +46,7 @@ namespace AdventOfCode
                     string line = raw[i + j].Replace("  ", " ");
                     if (line[0] == ' ') s += line.Substring(1);
                     else s += line;
-                    if (j!=4) s += ' ';
+                    if (j != 4) s += ' ';
                 }
                 string[] sArr = s.Split(' ');
                 int[] iArr = Array.ConvertAll(sArr, int.Parse);
@@ -59,7 +59,7 @@ namespace AdventOfCode
             bool won = false;
             int finalNum = 0;
             BingoBoard winner = boards[0];
-            foreach (int  input in inputs)
+            foreach (int input in inputs)
             {
                 if (won) break;
                 foreach (BingoBoard board in boards)
