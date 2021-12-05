@@ -35,6 +35,7 @@ namespace AdventOfCode
             this.Day2 = new System.Windows.Forms.Button();
             this.Day3 = new System.Windows.Forms.Button();
             this.Day4 = new System.Windows.Forms.Button();
+            this.Day5 = new System.Windows.Forms.Button();
             this.vScrollBar1 = new System.Windows.Forms.VScrollBar();
             this.Heading = new System.Windows.Forms.Label();
             this.output = new System.Windows.Forms.TableLayoutPanel();
@@ -46,7 +47,7 @@ namespace AdventOfCode
             this.Part1Out = new System.Windows.Forms.Label();
             this.Part2Out = new System.Windows.Forms.Label();
             this.Display = new System.Windows.Forms.Label();
-            this.Day5 = new System.Windows.Forms.Button();
+            this.Day6 = new System.Windows.Forms.Button();
             this.ButtonsList.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
             this.output.SuspendLayout();
@@ -71,6 +72,7 @@ namespace AdventOfCode
             this.flowLayoutPanel1.Controls.Add(this.Day3);
             this.flowLayoutPanel1.Controls.Add(this.Day4);
             this.flowLayoutPanel1.Controls.Add(this.Day5);
+            this.flowLayoutPanel1.Controls.Add(this.Day6);
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
@@ -120,6 +122,17 @@ namespace AdventOfCode
             this.Day4.Text = "Day 4";
             this.Day4.UseVisualStyleBackColor = true;
             this.Day4.Click += new System.EventHandler(this.Day4_Click);
+            // 
+            // Day5
+            // 
+            this.Day5.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.Day5.Location = new System.Drawing.Point(3, 95);
+            this.Day5.Name = "Day5";
+            this.Day5.Size = new System.Drawing.Size(194, 40);
+            this.Day5.TabIndex = 4;
+            this.Day5.Text = "Day 5";
+            this.Day5.UseVisualStyleBackColor = true;
+            this.Day5.Click += new System.EventHandler(this.Day5_Click);
             // 
             // vScrollBar1
             // 
@@ -259,16 +272,16 @@ namespace AdventOfCode
             this.Display.Size = new System.Drawing.Size(373, 407);
             this.Display.TabIndex = 3;
             // 
-            // Day5
+            // Day6
             // 
-            this.Day5.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.Day5.Location = new System.Drawing.Point(3, 95);
-            this.Day5.Name = "Day5";
-            this.Day5.Size = new System.Drawing.Size(194, 40);
-            this.Day5.TabIndex = 4;
-            this.Day5.Text = "Day 5";
-            this.Day5.UseVisualStyleBackColor = true;
-            this.Day5.Click += new System.EventHandler(this.Day5_Click);
+            this.Day6.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.Day6.Location = new System.Drawing.Point(203, 95);
+            this.Day6.Name = "Day6";
+            this.Day6.Size = new System.Drawing.Size(194, 40);
+            this.Day6.TabIndex = 5;
+            this.Day6.Text = "Day 6";
+            this.Day6.UseVisualStyleBackColor = true;
+            this.Day6.Click += new System.EventHandler(this.Day6_Click);
             // 
             // Menu
             // 
@@ -310,6 +323,7 @@ namespace AdventOfCode
         private System.Windows.Forms.Button Day3;
         private System.Windows.Forms.Button Day4;
         private System.Windows.Forms.Button Day5;
+        private System.Windows.Forms.Button Day6;
     }
 }
 

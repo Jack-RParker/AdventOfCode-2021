@@ -4,8 +4,8 @@ namespace AdventOfCode
 {
     public abstract class Day
     {
-        readonly Menu menu = Application.OpenForms[0] as Menu;
-        public void Print(string s, string end = "\n")
+        static readonly Menu menu = Application.OpenForms[0] as Menu;
+        public static void Print(string s, string end = "\n")
         {
             string text = menu.Display.Text;
             menu.Display.Text = text + s + end;
