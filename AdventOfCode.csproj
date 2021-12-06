@@ -65,6 +65,7 @@
     <Compile Include="Day4.cs" />
     <Compile Include="Day5.cs" />
     <Compile Include="Day6.cs" />
+    <Compile Include="Day7.cs" />
     <Compile Include="DayX.cs" />
     <Compile Include="Day.cs" />
     <Compile Include="Day1.cs" />
@@ -130,6 +131,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Day5Input.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Day6Input.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

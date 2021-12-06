@@ -163,33 +163,7 @@ namespace AdventOfCode.Properties {
         ///481
         ///483
         ///487
-        ///494
-        ///496
-        ///511
-        ///510
-        ///511
-        ///514
-        ///524
-        ///530
-        ///532
-        ///522
-        ///505
-        ///516
-        ///502
-        ///489
-        ///488
-        ///501
-        ///503
-        ///479
-        ///500
-        ///503
-        ///507
-        ///514
-        ///522
-        ///532
-        ///533
-        ///535
-        /// [rest of string was truncated]&quot;;.
+        ///49 [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Day1Input {
             get {
@@ -258,15 +232,7 @@ namespace AdventOfCode.Properties {
         ///forward 4
         ///forward 8
         ///forward 4
-        ///forward 4
-        ///up 4
-        ///up 9
-        ///down 6
-        ///forward 2
-        ///forward 5
-        ///down 2
-        ///forward 1
-        ///d [rest of string was truncated]&quot;;.
+        ///forwa [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Day2Input {
             get {
@@ -311,10 +277,7 @@ namespace AdventOfCode.Properties {
         ///000010110100
         ///101001110100
         ///000110110000
-        ///101100101000
-        ///111001100111
-        ///110100001110
-        ///00111 [rest of string was truncated]&quot;;.
+        ///10110010 [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Day3Input {
             get {
@@ -340,8 +303,7 @@ namespace AdventOfCode.Properties {
         ///73 32 37 93 39
         /// 2 87 38 99 97
         ///15 12 42 49 33
-        /// 9 23 25 94 19
-        ///57  4 18  [rest of string was truncated]&quot;;.
+        /// 9 23 2 [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Day4Input {
             get {
@@ -375,13 +337,20 @@ namespace AdventOfCode.Properties {
         ///700,376 -&gt; 700,917
         ///501,95 -&gt; 198,95
         ///251,900 -&gt; 435,900
-        ///912,931 -&gt; 96,115
-        ///962,140 -&gt; 181,921
-        ///104,24 [rest of string was truncated]&quot;;.
+        ///912,931 -&gt; 96,115        /// [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Day5Input {
             get {
                 return ResourceManager.GetString("Day5Input", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 1,2,4,5,5,5,2,1,3,1,4,3,2,1,5,5,1,2,3,4,4,1,2,3,2,1,4,4,1,5,5,1,3,4,4,4,1,2,2,5,1,5,5,3,2,3,1,1,3,5,1,1,2,4,2,3,1,1,2,1,3,1,2,1,1,2,1,2,2,1,1,1,1,5,4,5,2,1,3,2,4,1,1,3,4,1,4,1,5,1,4,1,5,3,2,3,2,2,4,4,3,3,4,3,4,4,3,4,5,1,2,5,2,1,5,5,1,3,4,2,2,4,2,2,1,3,2,5,5,1,3,3,4,3,5,3,5,5,4,5,1,1,4,1,4,5,1,1,1,4,1,1,4,2,1,4,1,3,4,4,3,1,2,2,4,3,3,2,2,2,3,5,5,2,3,1,5,1,1,1,1,3,1,4,1,4,1,2,5,3,2,4,4,1,3,1,1,1,3,4,4,1,1,2,1,4,3,4,2,2,3,2,4,3,1,5,1,3,1,4,5,5,3,5,1,3,5,5,4,2,3,2,4,1,3,2,2,2,1,3,4,2,5,2,5,3,5,5,1,1,1,2,2,3,1,4, [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Day6Input {
+            get {
+                return ResourceManager.GetString("Day6Input", resourceCulture);
             }
         }
     }
