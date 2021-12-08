@@ -362,5 +362,20 @@ namespace AdventOfCode.Properties {
                 return ResourceManager.GetString("Day7Input", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to fgcae ebafc cabdef eg abecfg abgfed feg gafdc bceg ebgcadf | defagbc faecg cfdag gecb
+        ///eagd cad fgadbc aefdcg dcebfg fcegd cbeaf ad dbgfeca defca | cfdeg gdcabf fcgde afgced
+        ///gfdeca aeb eb fbdag eafdc adfbe cefdab bdaegcf efbc ecadgb | eb dbafe eab faecd
+        ///facbdge efdg gcafd daegc caegb aecfdb ade ed gafbdc dgfeac | de abcdef faedcg dfgca
+        ///dcaegbf bc dcgeab cbgad cebg cdfaeb fbadg acdge cefdga cdb | gdcfae gbec gdace cgadfe
+        ///ceagfbd fbaeg fadge fbegad abgecf dafcg ed edab ged dfcbeg | gebfa de gbafec ed
+        ///acedbf ad [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Day8Input {
+            get {
+                return ResourceManager.GetString("Day8Input", resourceCulture);
+            }
+        }
     }
 }
