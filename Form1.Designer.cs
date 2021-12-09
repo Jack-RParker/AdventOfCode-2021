@@ -39,6 +39,7 @@ namespace AdventOfCode
             this.Day6 = new System.Windows.Forms.Button();
             this.Day7 = new System.Windows.Forms.Button();
             this.Day8 = new System.Windows.Forms.Button();
+            this.Day9 = new System.Windows.Forms.Button();
             this.vScrollBar1 = new System.Windows.Forms.VScrollBar();
             this.Heading = new System.Windows.Forms.Label();
             this.output = new System.Windows.Forms.TableLayoutPanel();
@@ -50,7 +51,7 @@ namespace AdventOfCode
             this.Part1Out = new System.Windows.Forms.Label();
             this.Part2Out = new System.Windows.Forms.Label();
             this.Display = new System.Windows.Forms.Label();
-            this.Day9 = new System.Windows.Forms.Button();
+            this.Day10 = new System.Windows.Forms.Button();
             this.ButtonsList.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
             this.output.SuspendLayout();
@@ -79,6 +80,7 @@ namespace AdventOfCode
             this.flowLayoutPanel1.Controls.Add(this.Day7);
             this.flowLayoutPanel1.Controls.Add(this.Day8);
             this.flowLayoutPanel1.Controls.Add(this.Day9);
+            this.flowLayoutPanel1.Controls.Add(this.Day10);
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
@@ -172,6 +174,17 @@ namespace AdventOfCode
             this.Day8.Text = "Day 8";
             this.Day8.UseVisualStyleBackColor = true;
             this.Day8.Click += new System.EventHandler(this.Day8_Click);
+            // 
+            // Day9
+            // 
+            this.Day9.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.Day9.Location = new System.Drawing.Point(3, 187);
+            this.Day9.Name = "Day9";
+            this.Day9.Size = new System.Drawing.Size(194, 40);
+            this.Day9.TabIndex = 8;
+            this.Day9.Text = "Day 9";
+            this.Day9.UseVisualStyleBackColor = true;
+            this.Day9.Click += new System.EventHandler(this.Day9_Click);
             // 
             // vScrollBar1
             // 
@@ -306,21 +319,22 @@ namespace AdventOfCode
             // 
             this.Display.AutoSize = true;
             this.Display.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Display.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Display.Location = new System.Drawing.Point(4, 153);
             this.Display.Name = "Display";
             this.Display.Size = new System.Drawing.Size(373, 407);
             this.Display.TabIndex = 3;
             // 
-            // Day9
+            // Day10
             // 
-            this.Day9.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.Day9.Location = new System.Drawing.Point(3, 187);
-            this.Day9.Name = "Day9";
-            this.Day9.Size = new System.Drawing.Size(194, 40);
-            this.Day9.TabIndex = 8;
-            this.Day9.Text = "Day 9";
-            this.Day9.UseVisualStyleBackColor = true;
-            this.Day9.Click += new System.EventHandler(this.Day9_Click);
+            this.Day10.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.Day10.Location = new System.Drawing.Point(203, 187);
+            this.Day10.Name = "Day10";
+            this.Day10.Size = new System.Drawing.Size(194, 40);
+            this.Day10.TabIndex = 9;
+            this.Day10.Text = "Day 10";
+            this.Day10.UseVisualStyleBackColor = true;
+            this.Day10.Click += new System.EventHandler(this.Day10_Click);
             // 
             // Menu
             // 
@@ -366,6 +380,7 @@ namespace AdventOfCode
         private System.Windows.Forms.Button Day7;
         private System.Windows.Forms.Button Day8;
         private System.Windows.Forms.Button Day9;
+        private System.Windows.Forms.Button Day10;
     }
 }
 

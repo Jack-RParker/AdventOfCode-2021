@@ -2,7 +2,7 @@
 
 namespace AdventOfCode
 {
-    class Day9 : Day
+    class Day10 : Day
     {
         public override void Run()
         {

@@ -1,4 +1,6 @@
-﻿using System.Windows.Forms;
+﻿using System;
+using System.Collections.Generic;
+using System.Windows.Forms;
 
 namespace AdventOfCode
 {
@@ -10,9 +12,16 @@ namespace AdventOfCode
             string text = menu.Display.Text;
             menu.Display.Text = text + s + end;
         }
-        public void Print(int i, string end = "\n")
+        public static void Print(int i, string end = "\n")
         {
             Print(i.ToString(), end);
+        }
+        public static void Print(IEnumerable<int> list, string end = "\n")
+        {
+            foreach (var item in list)
+            {
+                Print(item, end);
+            }
         }
         public void DisplayOuput(Output output)
         {

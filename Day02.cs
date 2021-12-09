@@ -3,7 +3,7 @@ using System;
 
 namespace AdventOfCode
 {
-    class Day2 : Day
+    class Day02 : Day
     {
         public override void Run()
         {

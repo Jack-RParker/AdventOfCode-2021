@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace AdventOfCode
 {
-    class Day3 : Day
+    class Day03 : Day
     {
         public override void Run()
         {
@@ -24,10 +24,7 @@ namespace AdventOfCode
             string[] raw = Resources.Day3Input.TrimEnd('\n').Split('\n');
             for (int i = 0; i < raw.Length; i++)
             {
-                char[] cArr = raw[i].ToCharArray();
-                double[] dArr = Array.ConvertAll(cArr, char.GetNumericValue);
-                int[] iArr = Array.ConvertAll(dArr, Convert.ToInt32);
-                data.Add(iArr);
+                data.Add(StrToIntArr(raw[i]));
             }
             return data;
         }
@@ -49,6 +46,11 @@ namespace AdventOfCode
             int oxy = Step(data, 0, true);
             int co2 = Step(data, 0, false);
             return (oxy * co2).ToString();
+        }
+        int[] StrToIntArr(string s)
+        {
+            string[] sArr = Array.ConvertAll(s.ToCharArray(), Convert.ToString);
+            return Array.ConvertAll(sArr, int.Parse);
         }
         int MCB(List<int[]> data, int index)
         {

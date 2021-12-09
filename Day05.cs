@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace AdventOfCode
 {
-    class Day5 : Day
+    class Day05 : Day
     {
         public override void Run()
         {

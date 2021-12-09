@@ -20,55 +20,61 @@ namespace AdventOfCode
         private void Day1_Click(object sender, EventArgs e)
         {
             Heading.Text = "Day 1";
-            day = new Day1();
+            day = new Day01();
         }
 
         private void Day2_Click(object sender, EventArgs e)
         {
             Heading.Text = "Day 2";
-            day = new Day2();
+            day = new Day02();
         }
 
         private void Day3_Click(object sender, EventArgs e)
         {
             Heading.Text = "Day 3";
-            day = new Day3();
+            day = new Day03();
         }
 
         private void Day4_Click(object sender, EventArgs e)
         {
             Heading.Text = "Day 4";
-            day = new Day4();
+            day = new Day04();
         }
 
         private void Day5_Click(object sender, EventArgs e)
         {
             Heading.Text = "Day 5";
-            day = new Day5();
+            day = new Day05();
         }
 
         private void Day6_Click(object sender, EventArgs e)
         {
             Heading.Text = "Day 6";
-            day = new Day6();
+            day = new Day06();
         }
 
         private void Day7_Click(object sender, EventArgs e)
         {
             Heading.Text = "Day 7";
-            day = new Day7();
+            day = new Day07();
         }
 
         private void Day8_Click(object sender, EventArgs e)
         {
             Heading.Text = "Day 8";
-            day = new Day8();
+            day = new Day08();
         }
 
         private void Day9_Click(object sender, EventArgs e)
         {
             Heading.Text = "Day 9";
-            day = new Day9();
+            day = new Day09();
+        }
+
+        private void Day10_Click(object sender, EventArgs e)
+        {
+            Heading.Text = "Day 10";
+            day = new Day10();
         }
     }
 }

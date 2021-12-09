@@ -5,7 +5,7 @@ using AdventOfCode.Properties;
 
 namespace AdventOfCode
 {
-    class Day8 : Day
+    class Day08 : Day
     {
         public override void Run()
         {
