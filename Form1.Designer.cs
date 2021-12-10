@@ -40,6 +40,7 @@ namespace AdventOfCode
             this.Day7 = new System.Windows.Forms.Button();
             this.Day8 = new System.Windows.Forms.Button();
             this.Day9 = new System.Windows.Forms.Button();
+            this.Day10 = new System.Windows.Forms.Button();
             this.vScrollBar1 = new System.Windows.Forms.VScrollBar();
             this.Heading = new System.Windows.Forms.Label();
             this.output = new System.Windows.Forms.TableLayoutPanel();
@@ -51,12 +52,14 @@ namespace AdventOfCode
             this.Part1Out = new System.Windows.Forms.Label();
             this.Part2Out = new System.Windows.Forms.Label();
             this.Display = new System.Windows.Forms.Label();
-            this.Day10 = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.Day11 = new System.Windows.Forms.Button();
             this.ButtonsList.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
             this.output.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // ButtonsList
@@ -81,6 +84,7 @@ namespace AdventOfCode
             this.flowLayoutPanel1.Controls.Add(this.Day8);
             this.flowLayoutPanel1.Controls.Add(this.Day9);
             this.flowLayoutPanel1.Controls.Add(this.Day10);
+            this.flowLayoutPanel1.Controls.Add(this.Day11);
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
@@ -186,6 +190,17 @@ namespace AdventOfCode
             this.Day9.UseVisualStyleBackColor = true;
             this.Day9.Click += new System.EventHandler(this.Day9_Click);
             // 
+            // Day10
+            // 
+            this.Day10.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.Day10.Location = new System.Drawing.Point(203, 187);
+            this.Day10.Name = "Day10";
+            this.Day10.Size = new System.Drawing.Size(194, 40);
+            this.Day10.TabIndex = 9;
+            this.Day10.Text = "Day 10";
+            this.Day10.UseVisualStyleBackColor = true;
+            this.Day10.Click += new System.EventHandler(this.Day10_Click);
+            // 
             // vScrollBar1
             // 
             this.vScrollBar1.Location = new System.Drawing.Point(383, 0);
@@ -210,7 +225,7 @@ namespace AdventOfCode
             this.output.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.output.Controls.Add(this.tableLayoutPanel1, 0, 0);
             this.output.Controls.Add(this.tableLayoutPanel2, 0, 1);
-            this.output.Controls.Add(this.Display, 0, 2);
+            this.output.Controls.Add(this.panel1, 0, 2);
             this.output.Dock = System.Windows.Forms.DockStyle.Right;
             this.output.Location = new System.Drawing.Point(403, 0);
             this.output.Name = "output";
@@ -317,24 +332,34 @@ namespace AdventOfCode
             // 
             // Display
             // 
-            this.Display.AutoSize = true;
             this.Display.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Display.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Display.Location = new System.Drawing.Point(4, 153);
+            this.Display.Location = new System.Drawing.Point(0, 0);
+            this.Display.MinimumSize = new System.Drawing.Size(100, 100);
             this.Display.Name = "Display";
-            this.Display.Size = new System.Drawing.Size(373, 407);
+            this.Display.Size = new System.Drawing.Size(373, 401);
             this.Display.TabIndex = 3;
             // 
-            // Day10
+            // panel1
             // 
-            this.Day10.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.Day10.Location = new System.Drawing.Point(203, 187);
-            this.Day10.Name = "Day10";
-            this.Day10.Size = new System.Drawing.Size(194, 40);
-            this.Day10.TabIndex = 9;
-            this.Day10.Text = "Day 10";
-            this.Day10.UseVisualStyleBackColor = true;
-            this.Day10.Click += new System.EventHandler(this.Day10_Click);
+            this.panel1.AutoScroll = true;
+            this.panel1.Controls.Add(this.Display);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel1.Location = new System.Drawing.Point(4, 156);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(373, 401);
+            this.panel1.TabIndex = 5;
+            // 
+            // Day11
+            // 
+            this.Day11.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.Day11.Location = new System.Drawing.Point(3, 233);
+            this.Day11.Name = "Day11";
+            this.Day11.Size = new System.Drawing.Size(194, 40);
+            this.Day11.TabIndex = 10;
+            this.Day11.Text = "Day 11";
+            this.Day11.UseVisualStyleBackColor = true;
+            this.Day11.Click += new System.EventHandler(this.Day11_Click);
             // 
             // Menu
             // 
@@ -348,10 +373,10 @@ namespace AdventOfCode
             this.ButtonsList.ResumeLayout(false);
             this.flowLayoutPanel1.ResumeLayout(false);
             this.output.ResumeLayout(false);
-            this.output.PerformLayout();
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel2.ResumeLayout(false);
             this.tableLayoutPanel2.PerformLayout();
+            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -381,6 +406,8 @@ namespace AdventOfCode
         private System.Windows.Forms.Button Day8;
         private System.Windows.Forms.Button Day9;
         private System.Windows.Forms.Button Day10;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Button Day11;
     }
 }
 

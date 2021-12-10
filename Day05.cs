@@ -83,14 +83,6 @@ namespace AdventOfCode
             {
                 if (i >= 2) count++;
             }
-            for (int y = 0; y < 10; y++)
-            {
-                for (int x = 0; x < 10; x++)
-                {
-                    Print(board[x + 1000 * y], " ");
-                }
-                Print("\n");
-            }
             return count.ToString();
         }
 

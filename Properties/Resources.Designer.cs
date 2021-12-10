@@ -61,6 +61,20 @@ namespace AdventOfCode.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to ([&lt;([{{&lt;&lt;(&lt;&lt;{[&lt;&gt;&lt;&gt;)}&lt;([][])&lt;&lt;&gt;{}&gt;&gt;&gt;{[{(){}}(()[])]&lt;{()()}&lt;()()&gt;&gt;}&gt;([&lt;&lt;{}&lt;&gt;&gt;(&lt;&gt;&lt;&gt;)&gt;&lt;[{}[]](&lt;&gt;())&gt;][
+        ///({{&lt;&lt;(&lt;&lt;&lt;&lt;{{[({}{})&lt;[]()&gt;]&lt;([]{}){[]&lt;&gt;}&gt;}{([{}[]]}}}&gt;({(((()()))&lt;{&lt;&gt;()}[&lt;&gt;()]&gt;)[{(&lt;&gt;{})(()[])}[{[]
+        ///[{{[([&lt;({[([&lt;{[]}({}&lt;&gt;)&gt;]{(([]())[()[]]){&lt;[]&lt;&gt;&gt;[&lt;&gt;&lt;&gt;]}}&gt;{&lt;[(()&lt;&gt;){[]&lt;&gt;}][[&lt;&gt;{}]&lt;()()&gt;]&gt;[[[&lt;&gt;[]][()
+        ///{(&lt;&lt;{([([&lt;(&lt;{(&lt;&gt;[])&lt;()&lt;&gt;&gt;}&gt;){[[&lt;&lt;&gt;()&gt;[&lt;&gt;[]]]{[{}{}]{[]&lt;&gt;}}]{&lt;{{}&lt;&gt;}{{}()}&gt;{[()()]&lt;[]&lt;&gt;&gt;})}&gt;[{({[{}
+        ///&lt;{&lt;&lt;&lt;&lt;&lt;{{{({&lt;&lt;[][]&gt;[()[]]&gt;&lt;&lt;(){}&gt;([]{})&gt;}{{&lt;[]{}&gt;&lt;{}[]&gt;}{&lt;{}{}&gt;({}&lt;&gt;)}}){([(()[]){[]()}][&lt;[]()&gt;&lt;[]{}&gt;])
+        ///&lt;{({{&lt;{{{&lt;(( [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Day10Input {
+            get {
+                return ResourceManager.GetString("Day10Input", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to 169
         ///150
         ///158
@@ -277,7 +291,10 @@ namespace AdventOfCode.Properties {
         ///000010110100
         ///101001110100
         ///000110110000
-        ///10110010 [rest of string was truncated]&quot;;.
+        ///101100101000
+        ///111001100111
+        ///110100001110
+        ///00111 [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Day3Input {
             get {
