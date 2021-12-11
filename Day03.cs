@@ -47,11 +47,6 @@ namespace AdventOfCode
             int co2 = Step(data, 0, false);
             return (oxy * co2).ToString();
         }
-        int[] StrToIntArr(string s)
-        {
-            string[] sArr = Array.ConvertAll(s.ToCharArray(), Convert.ToString);
-            return Array.ConvertAll(sArr, int.Parse);
-        }
         int MCB(List<int[]> data, int index)
         {
             int sum = 0;

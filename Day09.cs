@@ -51,11 +51,7 @@ namespace AdventOfCode
             int[] sizeArr = sizes.OrderByDescending(c => c).ToArray();
             return (sizeArr[0] * sizeArr[1] * sizeArr[2]).ToString();
         }
-        int[] StrToIntArr(string s)
-        {
-            string[] sArr = Array.ConvertAll(s.ToCharArray(), Convert.ToString);
-            return Array.ConvertAll(sArr, int.Parse);
-        }
+
         Point[] FindLowPoints(int[][] data)
         {
             int[] lim = new int[] { data[0].Length, data.Length };

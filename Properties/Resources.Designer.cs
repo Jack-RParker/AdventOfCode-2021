@@ -66,11 +66,30 @@ namespace AdventOfCode.Properties {
         ///[{{[([&lt;({[([&lt;{[]}({}&lt;&gt;)&gt;]{(([]())[()[]]){&lt;[]&lt;&gt;&gt;[&lt;&gt;&lt;&gt;]}}&gt;{&lt;[(()&lt;&gt;){[]&lt;&gt;}][[&lt;&gt;{}]&lt;()()&gt;]&gt;[[[&lt;&gt;[]][()
         ///{(&lt;&lt;{([([&lt;(&lt;{(&lt;&gt;[])&lt;()&lt;&gt;&gt;}&gt;){[[&lt;&lt;&gt;()&gt;[&lt;&gt;[]]]{[{}{}]{[]&lt;&gt;}}]{&lt;{{}&lt;&gt;}{{}()}&gt;{[()()]&lt;[]&lt;&gt;&gt;})}&gt;[{({[{}
         ///&lt;{&lt;&lt;&lt;&lt;&lt;{{{({&lt;&lt;[][]&gt;[()[]]&gt;&lt;&lt;(){}&gt;([]{})&gt;}{{&lt;[]{}&gt;&lt;{}[]&gt;}{&lt;{}{}&gt;({}&lt;&gt;)}}){([(()[]){[]()}][&lt;[]()&gt;&lt;[]{}&gt;])
-        ///&lt;{({{&lt;{{{&lt;(( [rest of string was truncated]&quot;;.
+        ///&lt;{({{&lt;{ [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Day10Input {
             get {
                 return ResourceManager.GetString("Day10Input", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 1443668646
+        ///7686735716
+        ///4261576231
+        ///3361258654
+        ///4852532611
+        ///5587113732
+        ///1224426757
+        ///5155565133
+        ///6488377862
+        ///8267833811
+        ///.
+        /// </summary>
+        internal static string Day11Input {
+            get {
+                return ResourceManager.GetString("Day11Input", resourceCulture);
             }
         }
         
@@ -177,7 +196,33 @@ namespace AdventOfCode.Properties {
         ///481
         ///483
         ///487
-        ///49 [rest of string was truncated]&quot;;.
+        ///494
+        ///496
+        ///511
+        ///510
+        ///511
+        ///514
+        ///524
+        ///530
+        ///532
+        ///522
+        ///505
+        ///516
+        ///502
+        ///489
+        ///488
+        ///501
+        ///503
+        ///479
+        ///500
+        ///503
+        ///507
+        ///514
+        ///522
+        ///532
+        ///533
+        ///535
+        /// [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Day1Input {
             get {
@@ -246,7 +291,15 @@ namespace AdventOfCode.Properties {
         ///forward 4
         ///forward 8
         ///forward 4
-        ///forwa [rest of string was truncated]&quot;;.
+        ///forward 4
+        ///up 4
+        ///up 9
+        ///down 6
+        ///forward 2
+        ///forward 5
+        ///down 2
+        ///forward 1
+        ///d [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Day2Input {
             get {
@@ -320,7 +373,8 @@ namespace AdventOfCode.Properties {
         ///73 32 37 93 39
         /// 2 87 38 99 97
         ///15 12 42 49 33
-        /// 9 23 2 [rest of string was truncated]&quot;;.
+        /// 9 23 25 94 19
+        ///57  4 18  [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Day4Input {
             get {
@@ -354,7 +408,9 @@ namespace AdventOfCode.Properties {
         ///700,376 -&gt; 700,917
         ///501,95 -&gt; 198,95
         ///251,900 -&gt; 435,900
-        ///912,931 -&gt; 96,115        /// [rest of string was truncated]&quot;;.
+        ///912,931 -&gt; 96,115
+        ///962,140 -&gt; 181,921
+        ///104,24 [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Day5Input {
             get {
@@ -387,7 +443,7 @@ namespace AdventOfCode.Properties {
         ///facbdge efdg gcafd daegc caegb aecfdb ade ed gafbdc dgfeac | de abcdef faedcg dfgca
         ///dcaegbf bc dcgeab cbgad cebg cdfaeb fbadg acdge cefdga cdb | gdcfae gbec gdace cgadfe
         ///ceagfbd fbaeg fadge fbegad abgecf dafcg ed edab ged dfcbeg | gebfa de gbafec ed
-        ///acedbf ad [rest of string was truncated]&quot;;.
+        ///ace [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Day8Input {
             get {
@@ -401,7 +457,7 @@ namespace AdventOfCode.Properties {
         ///9876578976512976899654569899889437597999876783439895789987654212347999939874101459789899545679878964
         ///6988989987109865698743456789679545989998965432129789998698795345789979896543212345678998957989567893
         ///4699798998998754987654568894578959876987896549098659897549987456898856799654323656789987898997678932
-        ///3489657 [rest of string was truncated]&quot;;.
+        ///34 [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Day9Input {
             get {

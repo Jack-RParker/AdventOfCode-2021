@@ -23,10 +23,19 @@ namespace AdventOfCode
                 Print(item, end);
             }
         }
+        public static void Clear()
+        {
+            menu.Display.Text = string.Empty;
+        }
         public void DisplayOuput(Output output)
         {
             menu.Part1Out.Text = output.p1;
             menu.Part2Out.Text = output.p2;
+        }
+        internal int[] StrToIntArr(string s)
+        {
+            string[] sArr = Array.ConvertAll(s.ToCharArray(), Convert.ToString);
+            return Array.ConvertAll(sArr, int.Parse);
         }
 
         public abstract void Run();
