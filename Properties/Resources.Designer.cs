@@ -94,6 +94,40 @@ namespace AdventOfCode.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to start-co
+        ///ip-WE
+        ///end-WE
+        ///le-ls
+        ///wt-zi
+        ///end-sz
+        ///wt-RI
+        ///wt-sz
+        ///zi-start
+        ///wt-ip
+        ///YT-sz
+        ///RI-start
+        ///le-end
+        ///ip-sz
+        ///WE-sz
+        ///le-WE
+        ///le-wt
+        ///zi-ip
+        ///RI-zi
+        ///co-zi
+        ///co-le
+        ///WB-zi
+        ///wt-WE
+        ///co-RI
+        ///RI-ip
+        ///.
+        /// </summary>
+        internal static string Day12Input {
+            get {
+                return ResourceManager.GetString("Day12Input", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to 169
         ///150
         ///158

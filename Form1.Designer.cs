@@ -41,6 +41,7 @@ namespace AdventOfCode
             this.Day8 = new System.Windows.Forms.Button();
             this.Day9 = new System.Windows.Forms.Button();
             this.Day10 = new System.Windows.Forms.Button();
+            this.Day11 = new System.Windows.Forms.Button();
             this.vScrollBar1 = new System.Windows.Forms.VScrollBar();
             this.Heading = new System.Windows.Forms.Label();
             this.output = new System.Windows.Forms.TableLayoutPanel();
@@ -51,9 +52,9 @@ namespace AdventOfCode
             this.label2 = new System.Windows.Forms.Label();
             this.Part1Out = new System.Windows.Forms.Label();
             this.Part2Out = new System.Windows.Forms.Label();
-            this.Display = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.Day11 = new System.Windows.Forms.Button();
+            this.Display = new System.Windows.Forms.Label();
+            this.Day12 = new System.Windows.Forms.Button();
             this.ButtonsList.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
             this.output.SuspendLayout();
@@ -85,6 +86,7 @@ namespace AdventOfCode
             this.flowLayoutPanel1.Controls.Add(this.Day9);
             this.flowLayoutPanel1.Controls.Add(this.Day10);
             this.flowLayoutPanel1.Controls.Add(this.Day11);
+            this.flowLayoutPanel1.Controls.Add(this.Day12);
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
@@ -200,6 +202,17 @@ namespace AdventOfCode
             this.Day10.Text = "Day 10";
             this.Day10.UseVisualStyleBackColor = true;
             this.Day10.Click += new System.EventHandler(this.Day10_Click);
+            // 
+            // Day11
+            // 
+            this.Day11.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.Day11.Location = new System.Drawing.Point(3, 233);
+            this.Day11.Name = "Day11";
+            this.Day11.Size = new System.Drawing.Size(194, 40);
+            this.Day11.TabIndex = 10;
+            this.Day11.Text = "Day 11";
+            this.Day11.UseVisualStyleBackColor = true;
+            this.Day11.Click += new System.EventHandler(this.Day11_Click);
             // 
             // vScrollBar1
             // 
@@ -330,16 +343,6 @@ namespace AdventOfCode
             this.Part2Out.TabIndex = 3;
             this.Part2Out.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // Display
-            // 
-            this.Display.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Display.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Display.Location = new System.Drawing.Point(0, 0);
-            this.Display.MinimumSize = new System.Drawing.Size(100, 100);
-            this.Display.Name = "Display";
-            this.Display.Size = new System.Drawing.Size(373, 401);
-            this.Display.TabIndex = 3;
-            // 
             // panel1
             // 
             this.panel1.AutoScroll = true;
@@ -350,16 +353,26 @@ namespace AdventOfCode
             this.panel1.Size = new System.Drawing.Size(373, 401);
             this.panel1.TabIndex = 5;
             // 
-            // Day11
+            // Display
             // 
-            this.Day11.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.Day11.Location = new System.Drawing.Point(3, 233);
-            this.Day11.Name = "Day11";
-            this.Day11.Size = new System.Drawing.Size(194, 40);
-            this.Day11.TabIndex = 10;
-            this.Day11.Text = "Day 11";
-            this.Day11.UseVisualStyleBackColor = true;
-            this.Day11.Click += new System.EventHandler(this.Day11_Click);
+            this.Display.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Display.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Display.Location = new System.Drawing.Point(0, 0);
+            this.Display.MinimumSize = new System.Drawing.Size(100, 100);
+            this.Display.Name = "Display";
+            this.Display.Size = new System.Drawing.Size(373, 401);
+            this.Display.TabIndex = 3;
+            // 
+            // Day12
+            // 
+            this.Day12.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.Day12.Location = new System.Drawing.Point(203, 233);
+            this.Day12.Name = "Day12";
+            this.Day12.Size = new System.Drawing.Size(194, 40);
+            this.Day12.TabIndex = 11;
+            this.Day12.Text = "Day 12";
+            this.Day12.UseVisualStyleBackColor = true;
+            this.Day12.Click += new System.EventHandler(this.Day12_Click);
             // 
             // Menu
             // 
@@ -408,6 +421,7 @@ namespace AdventOfCode
         private System.Windows.Forms.Button Day10;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button Day11;
+        private System.Windows.Forms.Button Day12;
     }
 }
 

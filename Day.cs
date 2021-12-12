@@ -23,6 +23,13 @@ namespace AdventOfCode
                 Print(item, end);
             }
         }
+        public static void Print(IEnumerable<string> list, string end = "\n")
+        {
+            foreach (var item in list)
+            {
+                Print(item, end);
+            }
+        }
         public static void Clear()
         {
             menu.Display.Text = string.Empty;
