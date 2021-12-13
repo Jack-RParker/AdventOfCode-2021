@@ -7,6 +7,12 @@ namespace AdventOfCode
     public abstract class Day
     {
         static readonly Menu menu = Application.OpenForms[0] as Menu;
+
+        public Day()
+        {
+            Clear();
+            DisplayOuput(new Output());
+        }
         public static void Print(string s, string end = "\n")
         {
             string text = menu.Display.Text;

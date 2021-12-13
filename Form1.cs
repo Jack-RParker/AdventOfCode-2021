@@ -88,5 +88,11 @@ namespace AdventOfCode
             Heading.Text = "Day 12";
             day = new Day12();
         }
+
+        private void Day13_Click(object sender, EventArgs e)
+        {
+            Heading.Text = "Day 13";
+            day = new Day13();
+        }
     }
 }
