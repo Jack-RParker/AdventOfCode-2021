@@ -22,18 +22,11 @@ namespace AdventOfCode
         {
             Print(i.ToString(), end);
         }
-        public static void Print(IEnumerable<int> list, string end = "\n")
+        public static void Print<T>(IEnumerable<T> list, string end = "\n")
         {
             foreach (var item in list)
             {
-                Print(item, end);
-            }
-        }
-        public static void Print(IEnumerable<string> list, string end = "\n")
-        {
-            foreach (var item in list)
-            {
-                Print(item, end);
+                Print(item.ToString(), end);
             }
         }
         public static void Clear()

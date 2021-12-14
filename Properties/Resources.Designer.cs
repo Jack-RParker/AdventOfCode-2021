@@ -201,6 +201,78 @@ namespace AdventOfCode.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to SFBBNKKOHHHPFOFFSPFV
+        ///
+        ///HB -&gt; C
+        ///KO -&gt; S
+        ///KK -&gt; N
+        ///PF -&gt; F
+        ///VB -&gt; F
+        ///KC -&gt; S
+        ///BP -&gt; H
+        ///SS -&gt; H
+        ///BS -&gt; B
+        ///PB -&gt; O
+        ///VH -&gt; C
+        ///BK -&gt; S
+        ///BO -&gt; F
+        ///HN -&gt; V
+        ///NN -&gt; K
+        ///PV -&gt; C
+        ///NH -&gt; P
+        ///KP -&gt; N
+        ///NB -&gt; V
+        ///NF -&gt; V
+        ///PP -&gt; O
+        ///PN -&gt; B
+        ///VN -&gt; K
+        ///SC -&gt; O
+        ///NS -&gt; N
+        ///SV -&gt; B
+        ///BV -&gt; P
+        ///FV -&gt; F
+        ///OK -&gt; H
+        ///HF -&gt; F
+        ///CV -&gt; K
+        ///KB -&gt; C
+        ///OB -&gt; B
+        ///NO -&gt; V
+        ///OF -&gt; B
+        ///HP -&gt; C
+        ///BB -&gt; F
+        ///FB -&gt; H
+        ///OC -&gt; K
+        ///NV -&gt; H
+        ///OV -&gt; S
+        ///OP -&gt; N
+        ///SP -&gt; N
+        ///FK -&gt; F
+        ///VV -&gt; B
+        ///VK -&gt; H
+        ///OS -&gt; F
+        ///CO -&gt; F
+        ///CH -&gt; V
+        ///HV -&gt; V
+        ///FN -&gt; B
+        ///CS -&gt; F
+        ///PS -&gt; F
+        ///HS -&gt; F
+        ///VO -&gt; K
+        ///NP -&gt; F
+        ///FP -&gt; B
+        ///KF -&gt; P
+        ///CC -&gt; N
+        ///BF -&gt; S
+        ///VP -&gt; F
+        ///HO [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Day14Input {
+            get {
+                return ResourceManager.GetString("Day14Input", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to 169
         ///150
         ///158

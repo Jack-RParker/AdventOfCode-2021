@@ -56,6 +56,7 @@ namespace AdventOfCode
             this.Part2Out = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.Display = new System.Windows.Forms.Label();
+            this.Day14 = new System.Windows.Forms.Button();
             this.ButtonsList.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
             this.output.SuspendLayout();
@@ -89,6 +90,7 @@ namespace AdventOfCode
             this.flowLayoutPanel1.Controls.Add(this.Day11);
             this.flowLayoutPanel1.Controls.Add(this.Day12);
             this.flowLayoutPanel1.Controls.Add(this.Day13);
+            this.flowLayoutPanel1.Controls.Add(this.Day14);
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
@@ -387,6 +389,17 @@ namespace AdventOfCode
             this.Display.Size = new System.Drawing.Size(373, 401);
             this.Display.TabIndex = 3;
             // 
+            // Day14
+            // 
+            this.Day14.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.Day14.Location = new System.Drawing.Point(203, 279);
+            this.Day14.Name = "Day14";
+            this.Day14.Size = new System.Drawing.Size(194, 40);
+            this.Day14.TabIndex = 13;
+            this.Day14.Text = "Day 14";
+            this.Day14.UseVisualStyleBackColor = true;
+            this.Day14.Click += new System.EventHandler(this.Day14_Click);
+            // 
             // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -436,6 +449,7 @@ namespace AdventOfCode
         private System.Windows.Forms.Button Day11;
         private System.Windows.Forms.Button Day12;
         private System.Windows.Forms.Button Day13;
+        private System.Windows.Forms.Button Day14;
     }
 }
 
